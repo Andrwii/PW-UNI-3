@@ -44,21 +44,21 @@ include 'header.php'
             <li>
                 <input type="text"  class="form-control border-0" name="txtNome" id="" placeholder="Nome">
             </li>
-            <li></li>
+            <li><br></li>
             <li>
                 <input type="text"  class="form-control border-0" name="txtEmail" id="" placeholder="E-mail">
             </li>
-            <li></li>
+            <li><br></li>
             <li>
                 <input type="text"  class="form-control border-0" name="txtAssunto" id="" placeholder="Assunto">
             </li>
-            <li></li>
+            <li><br></li>
             <li>
                 <textarea type=""  class="form-control border-0" name="txtMensagem" id="" placeholder="Mensagem"></textarea>
             </li>
-            <li></li>
+            <li><br></li>
             <li>
-                <input type="submit" value="Enviar" class="bbtn btn-primary w-10 py-2tn">
+                <input type="submit" value="Enviar" class="btn btn-primary w-10 py-2tn">
             </li>
         </ol>        
 </form>    

@@ -30,17 +30,14 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <?php 
+    <?php
+    include 'header.php';
     ?>
 
    
     <div class="container-xxl py-5">
             <div class="container">
                 <div class="footer">
-
-                <?php 
-                include 'header.php';
-                ?>
 
                 <h1> CADASTRAR PROFESSOR </h1>
 
@@ -52,33 +49,33 @@
                             <input type="text" name="txtNome" class="form-control border-0" id="pnome" placeholder="Nome">
                     </div>
                     </li>
-                    <li></li>
+                    <li><br></li>
                     <li>
                     <div class="col-sm-6">
                             <input type="text" class="form-control border-0" name="txtFormacao" id="pformacao" placeholder="Formação">
                     </div>
                     </li>
-                    <li></li>
+                    <li><br></li>
                     <li>
                     <div class="col-sm-6">
                             <input type="number" class="form-control border-0" name="TempoExp" id="ptempo" placeholder="Tempo de Eperiência">
                     </div>
                     </li>
-                    <li></li>
+                    <li><br></li>
                     <li>
                     <div class="col-sm-6">
                             <input type="text" class="form-control border-0" name="txtEscolaAnt" id="pescant" placeholder="Escola Anterior">
                     </div>
                     </li>
-                    <li></li>
+                    <li><br></li>
                     <li>
-                            <select name="turno" class="form-control border-0" id="">
+                            <select name="turno" class="form-control border-0 w-50" id="">
                             <option>Matutino</option>
                             <option>Vespertino</option>
                             <option>Noturno</option>
                             </select>
                     </li>
-                    <li></li>
+                    <li><br></li>
                     <li>
                         <input type="submit" value="Enviar" class="btn btn-primary w-10 py-2">
                     </li>

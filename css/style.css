@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+li{
+    list-style-type: none;
+}
 :root {
     --primary: #FE5D37;
     --light: #FFF5F3;
